@@ -13,6 +13,7 @@
 		74D19B04260BCEA2007E16B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D19B02260BCEA2007E16B6 /* Main.storyboard */; };
 		74D19B06260BCEA3007E16B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D19B05260BCEA3007E16B6 /* Assets.xcassets */; };
 		74D19B09260BCEA3007E16B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D19B07260BCEA3007E16B6 /* LaunchScreen.storyboard */; };
+		74D19B18260BFBA7007E16B6 /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D19B17260BFBA7007E16B6 /* TrafficLight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		74D19B05260BCEA3007E16B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74D19B08260BCEA3007E16B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74D19B0A260BCEA3007E16B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D19B17260BFBA7007E16B6 /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				74D19B05260BCEA3007E16B6 /* Assets.xcassets */,
 				74D19B07260BCEA3007E16B6 /* LaunchScreen.storyboard */,
 				74D19B0A260BCEA3007E16B6 /* Info.plist */,
+				74D19B17260BFBA7007E16B6 /* TrafficLight.swift */,
 			);
 			path = TrafficLight;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D19B18260BFBA7007E16B6 /* TrafficLight.swift in Sources */,
 				74D19B01260BCEA2007E16B6 /* ViewController.swift in Sources */,
 				74D19AFD260BCEA2007E16B6 /* AppDelegate.swift in Sources */,
 				74D19AFF260BCEA2007E16B6 /* SceneDelegate.swift in Sources */,
@@ -292,10 +296,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MikhailMezentsev.TrafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,10 +315,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MikhailMezentsev.TrafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
